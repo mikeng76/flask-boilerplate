@@ -1,0 +1,8 @@
+pip install --upgrade werkzeug
+pip install --upgrade flask_login
+
+To create the initial database, just import the db object from an interactive Python shell and run the SQLAlchemy.create_all() method to create the tables and database:
+
+>>> from yourapplication import db
+>>> db.create_all()
+
